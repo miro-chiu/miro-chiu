@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Mobile Web-app fullscreen -->
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Meta -->
+
+    <meta name="description" content="Extended Bootstrap 4 Template">
+    <meta name="author" content="Goran Hrustic">
+    <link rel="icon" href="assets/svg/favicon.ico">
+
+    <!-- Title -->
+
+    <title>Miro's - workshop</title>
+
+    <!-- V stylesheets -->
+
+    <link rel="stylesheet" media="all" href="css/vendor/animate.css" />
+    <link rel="stylesheet" media="all" href="css/vendor/font-awesome.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" media="all" href="css/vendor/linear-icons.css" />
+    <link rel="stylesheet" media="all" href="css/vendor/owl.carousel.css" />
+    <link rel="stylesheet" media="all" href="css/vendor/jquery.lavalamp.css" />
+
+    <!-- 樣式 stylesheets -->
+
+    <link rel="stylesheet" media="all" href="css/style.css" />
+
+</head>
+
+<body>
+    <div class="loader">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- MAIN 固定控制BAR -->
+    
+    <nav class="navbar navbar-expand-lg navbar-sticky navbar-dark">
+        <div class="container">
+    
+            <!-- Miro Logo -->
+    
+            <a class="navbar-brand mr-1" href="index.html">
+                <img src="assets/svg/reveal-logo.svg" alt="">
+            </a>
+    
+            <!-- MB 功能面板 -->
+    
+            <div class="collapse navbar-collapse navbar-collapse-sidebar" id="mainNavbar">
+    
+                <!-- MB 功能面板-面板內容 -->
+    
+                <div class="d-block d-lg-none">
+                    <div class="p-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <img class="mb-logo-15" src="assets/svg/reveal-symbol.svg" alt="">
+                            <button class="btn p-0" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="icon icon-cross font-size-lg"></span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+    
+                <!-- MB 功能面板-面板內容-連結 -->
+    
+                <ul class="navbar-nav ml-auto">
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">首頁</a>
+                    </li>
+    
+                    <!-- MB 功能面板-面板內容-連結-項目 -->
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="pages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            設計項目
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="pages">
+                            <a class="dropdown-item" href="#zone-02">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <div class="px-1">
+                                            <i class="fas fa-concierge-bell"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="px-2">
+                                            <p>服務介紹</p>
+                                            <span class="label">跨螢幕跨尺寸RWD網頁設計</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="#zone-03">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <span class="px-1">
+                                            <i class="fas fa-clock"></i>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="px-2">
+                                            <p>設計經驗</p>
+                                            <span class="label">專業實務的開發經驗</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="#zone-04">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <span class="px-1">
+                                            <i class="fas fa-paint-brush"></i>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="px-2">
+                                            <p>平面設計</p>
+                                            <span class="label">各式廣告與宣傳物件</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="#zone-05">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <span class="px-1">
+                                            <i class="fas fa-keyboard"></i>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="px-2">
+                                            <p>網頁設計</p>
+                                            <span class="label">各式風格網頁設計與作品範例</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+    
+                </ul>
+            </div>
+    
+            <!-- MB 功能面板-面板內容-關閉 -->
+    
+            <div class="d-flex align-items-center">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon icon-menu"></span>
+                </button>
+            </div>
+    
+        </div>
+    </nav>
+
+
+    <!-- MAIN 主視覺區塊 -->
+    
+    <section class="bg-primary-gradient text-white p-0 overflow-hidden position-relative">
+        <div class="container-fluid">
+    
+            <!-- MAIN 主視覺區塊-內容 -->
+    
+            <div class="rellax-cover rellax-cover-bottom scroll-opacity">
+                <div class="row row-mobile justify-content-between align-items-center no-gutters">
+                    <div class="col-6 col-lg-3 px-1 px-lg-2 rellax rellax-move" data-rellax-speed="3">
+                        <div class="wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="t-0">
+                                <div class="itemx">
+                                    <img src="assets/images/layouts/miro-web-spage-03.png" alt="" class="br-sm w-100 mb-2" />
+                                    <img src="assets/images/layouts/miro-web-spage-10.png" alt="" class="br-sm w-100 mb-2" />
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 px-1 px-lg-2 rellax rellax-move" data-rellax-speed="2">
+                        <div class="wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="t-3">
+                                <div class="itemx">
+                                    <img src="assets/images/layouts/miro-web-spage-05.png" alt="" class="br-sm w-100 mb-2" />
+                                    <img src="assets/images/layouts/miro-web-spage-07.png" alt="" class="br-sm w-100 mb-2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 px-1 px-lg-2 rellax rellax-move" data-rellax-speed="4">
+                        <div class="wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="t-1">
+                                <div class="itemx">
+                                    <img src="assets/images/layouts/miro-web-spage-02.png" alt="" class="br-sm w-100 mb-2" />
+                                    <img src="assets/images/layouts/miro-web-spage-08.png" alt="" class="br-sm w-100 mb-2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 px-1 px-lg-2 rellax rellax-move" data-rellax-speed="1">
+                        <div class="wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="t-0">
+                                <div class="itemx">
+                                    <img src="assets/images/layouts/miro-web-spage-01.png" alt="" class="br-sm w-100 mb-2" />
+                                    <img src="assets/images/layouts/miro-web-spage-09.png" alt="" class="br-sm w-100 mb-2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- MAIN 主視覺區塊-資訊 -->
+    
+            <div class="row justify-content-center align-items-center align-items-lg-start pt-lg-6 vh-100 mb-pb-7">
+                <div class="col-md-8 text-center">
+                    <div class="wow fadeInDown" data-wow-delay="0.3s">
+                        <div class="text-center rellax" data-rellax-speed="-1">
+                            <img src="assets/svg/reveal-symbol.svg" height="120" />
+                        </div>
+                    </div>
+                    <div class="wow fadeInDown" data-wow-delay="0.4s">
+                        <h1 class="display-3 mb-3 mb-lg-5 rellax pc-h-ls" data-rellax-speed="-2">
+                            <b>MIRO'S</b><br><b>WORKSHOP</b>
+                        </h1>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <div class="wow fadeInDown" data-wow-delay="0.5s">
+                            <p class="lead-s mb-5 rellax" data-rellax-speed="-2.2">
+                                平面設計 / 網頁設計 / 插畫設計 / UI / UX設計 / APP介面設計 <br class="d-none d-lg-inline"> 堅持專注，創造不凡
+                            </p>
+                        </div>
+                    </div>
+                    <div class="rellax pt-3" data-rellax-speed="-2.5">
+                        <span class="wow fadeInDown" data-wow-delay=".7s">
+                            <a href="#zone-01" class="btn btn-rounded btn-outline-light px-4">開啟旅程</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+    <!-- MAIN 開頭介紹 -->
+    
+    <section id="zone-01" class="bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center rellax rellax-move" data-rellax-speed="0.5">
+                    <div class="wow fadeInUp" data-wow-delay="0.3s">
+                        <h2 class="display-4">創造 <b>有溫度的</b> 好設計</h2>
+                        <p>
+                            如何讓用戶愛上你的設計，需要先了解並愛上你的用戶
+                            <br>不只是操作軟體，是思考問題的本質，而優秀的設計，就是我們與競爭對手保持差距的最佳方式
+                            <br>
+                            面對困難，尋找答案，解決問題。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr class="divider">
+    
+    <!-- MAIN 開頭介紹-02 -->
+    
+    <section id="zone-02" class="bg-white mi-pc-nopb">
+        <div class="container">
+    
+            <div class="row align-items-center">
+                <div class="col-lg-5 pr-lg-5">
+                    <div class="rellax rellax-move" data-rellax-speed="0.4">
+                        <div class="wow fadeInUp" data-wow-delay="0.2s">
+                            <h2 class="display-4"><b>為行動用戶</b><br> 創造優良使用體驗</h2>
+                            <p>
+                                小螢幕大世界，全球六成人口已上線網路，更有超過50億人使用手機，並持續快速增長中，小螢幕中資訊的設計與用戶操作易用性日趨重要，如何讓你的品牌在手機的小畫面中能完美呈現，錙銖必較的空間，設計師的經驗，重點的取捨，變得尤為重要。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="rellax rellax-move" data-rellax-speed="-0.3">
+                        <div class="wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="pt-5 pt-lg-0">
+                                <img src="assets/images/demo/demo-mobile.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- MAIN 開頭介紹-03 -->
+    
+    <section class="bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 order-lg-2 pl-lg-5">
+                    <div class="rellax rellax-move" data-rellax-speed="0.3">
+                        <div class="wow fadeInUp" data-wow-delay="0.4s">
+                            <h2 class="display-4"><b>響應式設計</b> <br>打造跨螢幕平台</h2>
+                            <p>
+                                
+除了主流手機小螢幕的設計，網站在桌上電腦、平板電腦等大螢幕的呈現也不可忽略，此時，良好的RWD網頁設計，就能兼顧一站同資訊，達成多尺寸變化和搜尋SEO提升，為你的網站創造最好的使用體驗，不同風格的網站呈現上也相當不同，而精準的設計能讓用戶第一時間就掌握你的網站主題，提升轉換率。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="rellax rellax-move" data-rellax-speed="-0.4">
+                        <div class="wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="pt-5 pt-lg-0">
+                                <img src="assets/images/demo/demo-desktop.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr class="divider">
+    
+    <!-- MAIN 設計師經驗 -->
+    
+    <section id="zone-03" class="bg-white p-0">
+        <div class="container">
+            <div class="row text-center line-divider">
+                <div class="col-lg-4 py-4 py-lg-8">
+                    <div class="wow fadeInLeft" data-wow-delay="0.3s">
+                        <div class="display-2">3000<sup>+</sup></div>
+                        <p class="lead">平面廣告設計</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-4 py-lg-8">
+                    <div class="wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="display-2">100<sup>+</sup></div>
+                        <p class="lead">網頁UIUX設計</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-4 py-lg-8">
+                    <div class="wow fadeInRight" data-wow-delay="0.5s">
+                        <div class="display-2">8年<sup>+</sup></div>
+                        <p class="lead">設計師經驗</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- MAIN 設計師經驗-UIUX -->
+    
+    <section class="bg-dark text-white overflow-hidden position-relative wow fadeIn" data-wow-delay="0.5">
+        <div class=" w-100 mx-2">
+            <div class="rellax-cover rellax-cover-center">
+                <div class="row align-items-center gutters-mobile">
+                    <div class="col-4 col-lg-2 rellax rellax-move" data-rellax-speed="-0.5">
+                        <img src="assets/images/layouts/mobile/1.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/2.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/3.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                    </div>
+                    <div class="col-4 col-lg-2 rellax rellax-move" data-rellax-speed="0.5">
+                        <img src="assets/images/layouts/mobile/4.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/5.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/6.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/7.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                    </div>
+                    <div class="col-4 col-lg-2 rellax rellax-move" data-rellax-speed="0.85">
+                        <img src="assets/images/layouts/mobile/8.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/9.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/10.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                    </div>
+                    <div class="d-none d-lg-inline col-lg-2 rellax rellax-move" data-rellax-speed="-0.5">
+                        <img src="assets/images/layouts/mobile/11.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/12.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/13.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/14.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                    </div>
+                    <div class="d-none d-lg-inline col-lg-2 rellax rellax-move" data-rellax-speed="0.85">
+                        <img src="assets/images/layouts/mobile/15.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/16.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/17.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                    </div>
+                    <div class="d-none d-lg-inline col-lg-2 rellax rellax-move" data-rellax-speed="-0.25">
+                        <img src="assets/images/layouts/mobile/18.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/19.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/20.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                        <img src="assets/images/layouts/mobile/21.png" class="img-fluid mb-2 mb-lg-4" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center pt-lg-8 vh-100">
+                    <div class="col-md-8 col-xl-6 text-center">
+                        <span class="wow fadeIn" data-wow-delay="0.5s">
+                            <img src="assets/images/demo/mobile-usage.png" alt="" class="img-fluid">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- MAIN 設計師經驗-用戶訂製 -->
+    
+    <section class="bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="wow fadeInUp" data-wow-delay="0.5s">
+                        <h2 class="display-4">研究用戶需求 <b>訂製細膩體驗</b>!</h2>
+                        <p class="lead">
+                            作為一個設計師，如果無法瞭解用戶、市場的需求，只單單做出自己喜愛的東西，是不足夠的，設計是解決問題的方法，有時，天才僅是將復雜問題簡單化的人，為需求找出最適合的解方。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- MAIN 裝飾效果 -->
+    
+    <section class="divider bg-white">
+        <svg class="svg svg-light" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="100" viewBox="0 0 1920 100" preserveAspectRatio="none meet">
+            <path d="M0,11S168.915,69.242,406.27,70.7,685.853,57.593,850.4,37.207,1259.752,73.448,1517.323,70.7,1920,19.667,1920,19.667V101H0Z" transform="translate(0 -1)" />
+            <path d="M1920,102.048s-89.6,137.879-398.308,19.053c-162.379-62.5-391.708,20.855-598.484,20.855-206.775,22.449-295.6-77.886-503.833-39.909C286.864,132.511,0,110.668,0,110.668v62.337H1920Z" transform="translate(0 -73.005)" fill-opacity=".2" />
+            <path d="M0,102.147S407.045,189.7,555.574,121.265C717.953,58.549,760.893,69.884,840.982,85.957c188.351,79.39,348.351-56.61,532.351,70.057C1489,91.538,1920,110.8,1920,110.8v62.551H0Z" transform="translate(0 -73.347)" fill-opacity=".4" />
+        </svg>
+    </section>
+    
+    <!-- MAIN 平面設計區 -->
+    
+    <section id="zone-04" class="pb-0 position-relative">
+    
+        <!-- MAIN 平面設計區-內容 -->
+    
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-md-8">
+                    <div class="wow fadeInUp" data-wow-delay=".1s">
+                        <h2 class="display-4"><b>高質感廣告</b> 創造網站流量</h2>
+                    </div>
+                    <div class="wow fadeInUp" data-wow-delay=".2s">
+                        <p class="lead">高質量的廣告，不只能吸引用戶前往網站，還可視為網站、品牌的延伸，在網路無數品牌爭鳴的時代，如何製作出抓住眼球的視覺素材，變得更加重要，好的廣告更可用低成本打造驚人效益。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- MAIN 平面設計區-作品 -->
+    
+        <div class="rellax-wrapper d-none d-lg-block">
+            <div class="flex-content">
+                <div class="w-100">
+                    <div class="row mx-2">
+    
+                        <div class="col-3">
+                            <div class="rellax rellax-move" data-rellax-speed="0.5">
+                                <div class="t-1">
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c1.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c2.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c3.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-3">
+                            <div class="rellax rellax-move" data-rellax-speed="-0.5">
+                                <div class="t-2">
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c4.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c5.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c6.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c7.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-3">
+                            <div class="rellax rellax-move" data-rellax-speed="0.8">
+                                <div class="t-1">
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c8.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c9.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c10.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-3">
+                            <div class="rellax rellax-move" data-rellax-speed="0.8">
+                                <div class="t-2">
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c11.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c12.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c13.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                    <div class="br-sm mb-3 p-1 bg-white shadow-sm">
+                                        <img src="assets/images/layouts/components/c14.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+    <!-- MAIN 網頁設計區 -->
+    
+    <section id="zone-05" class="bg-white">
+        <div class="container-fluid" id="templates">
+    
+            <!-- MAIN 網頁設計區-內容 -->
+    
+            <div class="container">
+                <div class="row justify-content-center align-items-center text-center py-5">
+                    <div class="col-md-8">
+                        <div class="wow fadeInUp" data-wow-delay=".3s">
+                            <h2 class="display-4"><b>網頁設計</b> 打造完整風格</h2>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-delay=".5s">
+                            <p class="lead mb-3">
+                                一個網站，就像一個家，一個全年無休，24小時營業，你與用戶的專屬空間，而一個好的網站，將為你帶來更多客戶，即刻建立屬於你的專屬網站吧！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- MAIN 網頁設計區-作品 -->
+    
+            <div class="row gutters-mobile pt-lg-5">
+    
+                <div class="col-6 col-lg-4" data-rellax-speed="1">
+                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="box box-image box-hover br-sm mb-3 shadow-sm bg-gray px-3 pt-3 px-lg-5 pt-lg-5">
+                            <a href="#" target="_blank" data-toggle="modal" data-target="#exampleModalLong">
+                                <img src="assets/images/layouts/miro-web-spage-01.png" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                        <!--<p class="lead text-center">Website design</p>-->
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="furniture">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Website design</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>-->
+                      <div class="modal-body">
+                        <img src="assets/images/layouts/miro-web-page-04.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-6 col-lg-4" data-rellax-speed="-1">
+                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box box-image box-hover br-sm mb-3 shadow-sm bg-gray px-3 pt-3 px-lg-5 pt-lg-5">
+                            <a href="#" target="_blank" data-toggle="modal" data-target="#exampleModalLong-02">
+                                <img src="assets/images/layouts/miro-web-spage-02.png" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                        <!--<p class="lead text-center">Website design</p>-->
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong-02" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="furniture">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Website design</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>-->
+                      <div class="modal-body">
+                        <img src="assets/images/layouts/miro-web-page-02.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 col-lg-4" data-rellax-speed="1">
+                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box box-image box-hover br-sm mb-3 shadow-sm bg-gray px-3 pt-3 px-lg-5 pt-lg-5">
+                            <a href="#" target="_blank" data-toggle="modal" data-target="#exampleModalLong-03">
+                                <img src="assets/images/layouts/miro-web-spage-03.png" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                        <!--<p class="lead text-center">Website design</p>-->
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong-03" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="furniture">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Website design</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>-->
+                      <div class="modal-body">
+                        <img src="assets/images/layouts/miro-web-page-01.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 col-lg-4" data-rellax-speed="1">
+                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="box box-image box-hover br-sm mb-3 shadow-sm bg-gray px-3 pt-3 px-lg-5 pt-lg-5">
+                            <a href="#" target="_blank" data-toggle="modal" data-target="#exampleModalLong-04">
+                                <img src="assets/images/layouts/miro-web-spage-04.png" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                        <!--<p class="lead text-center">Website design</p>-->
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong-04" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="furniture">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Website design</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>-->
+                      <div class="modal-body">
+                        <img src="assets/images/layouts/miro-web-page-03.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 col-lg-4" data-rellax-speed="-1">
+                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="box box-image box-hover br-sm mb-3 shadow-sm bg-gray px-3 pt-3 px-lg-5 pt-lg-5">
+                            <a href="#" target="_blank" data-toggle="modal" data-target="#exampleModalLong-05">
+                                <img src="assets/images/layouts/miro-web-spage-05.png" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                        <!--<p class="lead text-center">Website design</p>-->
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong-05" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="furniture">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Website design</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>-->
+                      <div class="modal-body">
+                        <img src="assets/images/layouts/miro-web-page-05.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 col-lg-4" data-rellax-speed="1">
+                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="box box-image box-hover br-sm mb-3 shadow-sm bg-gray px-3 pt-3 px-lg-5 pt-lg-5">
+                            <a href="#" target="_blank" data-toggle="modal" data-target="#exampleModalLong-06">
+                                <img src="assets/images/layouts/miro-web-spage-06.png" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                        <!--<p class="lead text-center">Website design</p>-->
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong-06" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="furniture">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Website design</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>-->
+                      <div class="modal-body">
+                        <img src="assets/images/layouts/miro-web-page-06.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-6 col-lg-4" data-rellax-speed="1">
+                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="box box-image box-hover br-sm mb-3 shadow-sm bg-gray px-3 pt-3 px-lg-5 pt-lg-5">
+                            <a href="#" target="_blank" data-toggle="modal" data-target="#exampleModalLong-07">
+                                <img src="assets/images/layouts/miro-web-spage-07.png" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                        <!--<p class="lead text-center">Website design</p>-->
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong-07" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="furniture">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Website design</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>-->
+                      <div class="modal-body">
+                        <img src="assets/images/layouts/miro-web-page-07.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 col-lg-4" data-rellax-speed="1">
+                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="box box-image box-hover br-sm mb-3 shadow-sm bg-gray px-3 pt-3 px-lg-5 pt-lg-5">
+                            <a href="#" target="_blank" data-toggle="modal" data-target="#exampleModalLong-08">
+                                <img src="assets/images/layouts/miro-web-spage-08.png" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                        <!--<p class="lead text-center">Website design</p>-->
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong-08" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="furniture">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Website design</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>-->
+                      <div class="modal-body">
+                        <img src="assets/images/layouts/miro-web-page-08.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 col-lg-4" data-rellax-speed="1">
+                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="box box-image box-hover br-sm mb-3 shadow-sm bg-gray px-3 pt-3 px-lg-5 pt-lg-5">
+                            <a href="#" target="_blank" data-toggle="modal" data-target="#exampleModalLong-09">
+                                <img src="assets/images/layouts/miro-web-spage-09.png" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                        <!--<p class="lead text-center">Website design</p>-->
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong-09" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="furniture">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Website design</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>-->
+                      <div class="modal-body">
+                        <img src="assets/images/layouts/miro-web-page-09.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+            </div>
+    
+            <!-- MAIN 網頁設計區-資訊 -->
+    
+            <div class="row justify-content-center align-items-center text-center py-5">
+                <div class="col-md-8 mt-5">
+                    <div class="wow fadeInUp" data-wow-delay=".1s">
+                        <h2 class="display-4">感謝 <b>您的蒞臨</b>!</h2>
+                        <p class="lead">
+                            追求好設計、前進不止息，期待與您一同創造更多美好的作品
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    
+    <!-- MAIN Footer -->
+    
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row justify-content-between align-items-end text-center text-md-left">
+    
+            </div>
+    
+            <div class="text-muted text-center">
+                <div class="mb-3"><img src="assets/svg/reveal-logo.svg" alt=""></div>
+                <div><small class="text-muted pre-label">用心，創造美好設計。</small></div>
+                <small>Copyright © 2021 By Miro. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Vendor Scripts js套件區 -->
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.bundle.js"></script>
+    <script src="js/vendor/in-view.min.js"></script>
+    <script src="js/vendor/jquery.lavalamp.js"></script>
+    <script src="js/vendor/owl.carousel.js"></script>
+    <script src="js/vendor/rellax.js"></script>
+    <script src="js/vendor/wow.js"></script>
+    <script src="js/vendor/tabzy.js"></script>
+    <script src="js/vendor/isotope.pkgd.js"></script>
+
+    <!-- 訂製 Scripts -->
+
+    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+
+    </body>
+
+</html>
